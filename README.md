@@ -8,7 +8,7 @@ The CIBERSORTx Cell Fractions module allows the estimation of cell subpopulation
 More under literature directory tutorial2; 
 
 
-## download licensed version :
+## Downloading the Licensed Version :
 
 The official licensed version of CIBERSORTx can be downloaded from the official website: https://cibersortx.stanford.edu/about.php
 
