@@ -2,32 +2,28 @@
 
 
 ## CIBERSORTx, Cell Fraction analysis module
-Cell Fractions: This module enumerates the proportions of 
-distinct cell subpopulations in bulk tissue expression profiles. 
-Unlike its predecessor, CIBERSORTx supports deconvolution of 
-bulk RNA-Seq data using signature genes derived from either 
-single cell transcriptomes or sorted cell populations.
+The CIBERSORTx Cell Fractions module allows the estimation of cell subpopulation proportions in bulk tissue expression profiles. It supports deconvolution of bulk RNA-Seq data using signature genes derived from single-cell transcriptomes or sorted cell populations.
 
 
-- more under literature directory tutorial2; 
+More under literature directory tutorial2; 
 
 
 ## download licensed version :
 
+The official licensed version of CIBERSORTx can be downloaded from the official website: https://cibersortx.stanford.edu/about.php
 
-- on your own from https://cibersortx.stanford.edu/about.php of CIBERSORT.R
+The current version used in this demonstration was downloaded from https://github.com/IOBR/IOBR/blob/905127ffa32aee5e1fa6c305c2e14e7c918a5967/R/CIBERSORT.R. Please note that this version is not an official release and is solely used for test purposes. It is recommended to adhere to official policies and use the licensed version for production purposes. This version is used here for quick tests and to ensure smooth transition once the licensed version is obtained.
 
-- current version here is downloaded from https://github.com/IOBR/IOBR/blob/905127ffa32aee5e1fa6c305c2e14e7c918a5967/R/CIBERSORT.R  which is not an official release; it is solely for test purposes; i have applied to get a licenesed vetsion for myself and everybody should stick to policies; this is solely for quick tests etc so that i can be up and running once I get my licenced version; 
-
-- read more on wiki 
+For more information, refer to the  wiki.
 
 
-## comparison of results returned by cibersort (https://cibersortx.stanford.edu/about.php) and local r script; (just my procrastinations) ;
+## Comparison of Results 
 
-- there are two testdatasets in testdata directory together with job parametrs  indicated in rscript file 
-- Notes: p values differ; since i have not had updated licensed code by now; i can not comment on why this is happening but this is something to do with testing significance with permutations procedure updates; come back later for it; rest tyhe values are identical ; 
+This demonstration aims to compare the results obtained from CIBERSORTx ([web version](https://cibersortx.stanford.edu/about.php)) and the local R script version. Two test datasets are provided in the testdata directory, along with job parameters indicated in the R script file.
 
-- be mindful of parameters ; tehre are few details one shoudl take care of on their own; this was justa minimal test on reproducibility for myself (web version versus scriot version(licensed version yet not avaialible to me; so even this part is questionable on my end!!! ));  
+Note: There are differences in p-values between the two versions. This is likely due to updates in the permutation procedure for testing significance. As of now, since I do not have the updated licensed code, I cannot provide further details on this discrepancy. However, apart from the p-values, the cell fraction values are identical.
+
+Please pay attention to the parameters used in the analysis. There are certain details that need to be taken care of individually. This demonstration serves as a minimal test for reproducibility (web version versus script version, with the licensed version not yet available to me). Therefore, even this part is subject to questioning until the licensed version is obtained.
 
 ## Acknowledgements:
 
