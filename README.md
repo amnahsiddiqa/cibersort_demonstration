@@ -17,7 +17,7 @@ single cell transcriptomes or sorted cell populations.
 
 - on your own from https://cibersortx.stanford.edu/about.php of CIBERSORT.R
 
-- current version here is downloaded from https://github.com/IOBR/IOBR/blob/905127ffa32aee5e1fa6c305c2e14e7c918a5967/R/CIBERSORT.R  which is not an official release; it is solely for test purposes; i have applied to get a licenesed vetsion for myself and everybody should stick to policies; this is solely for quick tests etc once I get my licenced version; 
+- current version here is downloaded from https://github.com/IOBR/IOBR/blob/905127ffa32aee5e1fa6c305c2e14e7c918a5967/R/CIBERSORT.R  which is not an official release; it is solely for test purposes; i have applied to get a licenesed vetsion for myself and everybody should stick to policies; this is solely for quick tests etc so that i can be up and running once I get my licenced version; 
 
 - read more on wiki 
 
